@@ -21,21 +21,21 @@ public class ClassDoubleyLL {
 		head=null;
 		
 	}
-//	public void addAtPosition(int val,int pos)
-//	{
-//		Node newNode=new Node(val);
-//		if(pos==1)
-//		{
-//			if(head!=null)
-//			{
-//				newNode.next=head;
-//				head.prev=newNode;
-//				head=newNode;
-//			}
-//		}
-//		
-//			
-//	}
+	public void addAtPosition(int val,int pos)
+	{
+		Node newNode=new Node(val);
+		if(pos==1)
+		{
+			if(head!=null)
+			{
+				newNode.next=head;
+				head.prev=newNode;
+				head=newNode;
+			}
+		}
+		
+			
+	}
 	public void addNode(int val)
 	{
 		Node newNode= new Node(val);
